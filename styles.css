@@ -196,6 +196,10 @@ body {
    RESPONSIVE MÓVIL
 ====================== */
 @media (max-width: 844px) {
+   .logo img{
+      width: 150px;
+      heigt: auto;
+   }
 
     .products-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -219,3 +223,4 @@ body {
         padding: 8px 6px;
     }
 }
+
