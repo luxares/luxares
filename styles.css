@@ -196,10 +196,36 @@ body {
    RESPONSIVE MÓVIL
 ====================== */
 @media (max-width: 844px) {
-   .logo img{
-      width: 150px;
-      heigt: auto;
-   }
+  
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 200px;
+        height: auto;
+    }
+
+    .header-text h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    .header-text p {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+
+}
 
     .products-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -223,4 +249,5 @@ body {
         padding: 8px 6px;
     }
 }
+
 
